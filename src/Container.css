@@ -1,0 +1,92 @@
+.Container {
+  background-color: #f1f1f1;
+  margin: auto;
+  align-items: flex-start;
+}
+.componentsContainer {
+  display: flex;
+  align-items: flex-start;
+}
+.navigation {
+  width: 100%;
+  display: flex;
+  background: #38ef7d;
+  height: 3.3rem;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 0rem;
+  margin: 0rem !important;
+}
+.company-name-container {
+  display: flex;
+}
+.company-name h1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.company-logo-container {
+  width: 2rem;
+  height: 2rem;
+}
+
+.cart-img-container img {
+  width: 2rem;
+  height: 2rem;
+}
+.menu-container {
+  margin-left: 0.7rem;
+  cursor: pointer;
+  visibility: hidden;
+}
+.menu-container img {
+  border-radius: 0.1rem;
+}
+.routes {
+  width: 19%;
+  background: rgb(253, 245, 168);
+  height: 93vh;
+}
+.c2 {
+  background-color: white;
+  width: 100%;
+  margin: auto;
+}
+.routeName {
+  width: 100%;
+  background-color: white;
+  padding: 0.5rem 0rem;
+  border-bottom: 3px solid #38ef7d;
+}
+.components {
+  width: 90%;
+  padding-bottom: 3.9rem;
+  height: 80vh;
+  margin: auto !important;
+  overflow-y: scroll;
+}
+
+@media (max-width: 921px) {
+  .menu-container {
+    visibility: visible;
+  }
+  .Container {
+    display: block;
+  }
+  .routes {
+    position: fixed;
+    transition: 1s;
+    width: 40%;
+    left: -100%;
+  }
+  .reveal {
+    transition: 1s;
+    left: 0%;
+  }
+  .components {
+    width: 100%;
+  }
+}
+@media (max-width: 622px) {
+  .routes {
+    width: 66%;
+  }
+}

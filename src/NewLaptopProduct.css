@@ -1,0 +1,66 @@
+.NewProduct {
+  width: 50%;
+  margin: auto;
+  /* margin-top: 6rem; */
+  /* background-color: #f1f1f1; */
+}
+.NewProduct h1 {
+  text-align: center;
+  padding-top: 0.8rem;
+}
+.btnContainer {
+  text-align: center;
+  width: 100%;
+}
+.NewProduct input,
+.NewProduct textarea {
+  display: block;
+  border: none;
+  outline: none;
+  width: 84%;
+  padding: 0.8rem 0.8rem;
+  margin: 1.3rem 0rem;
+  border-radius: 0.2rem;
+  margin-left: 0.3rem;
+  margin: auto;
+  margin-top: 1.3rem;
+  background-color: #f1f1f1;
+  box-shadow: 0px 0.3px 1.4px grey;
+}
+.NewProduct textarea {
+  height: 6rem;
+}
+.inputContainer {
+  margin: auto;
+  padding: 2rem 0rem;
+}
+.NewProduct .btnContainer button {
+  border: none;
+  outline: none;
+  width: 87.5%;
+  background: #38ef7d;
+  box-shadow: 0px 1.4px 2px darkgray;
+  cursor: pointer;
+  padding: 0.8rem 3rem;
+  font-weight: bolder;
+  font-size: 1.1rem;
+  /* text-transform: uppercase; */
+  margin-bottom: 1.9rem;
+  margin-top: 1rem;
+}
+@media (max-width: 1309px) {
+  .NewProduct {
+    width: 70%;
+  }
+}
+@media (max-width: 759px) {
+  .NewProduct {
+    width: 80%;
+  }
+  .NewProduct .btnContainer button {
+    width: 92%;
+  }
+  .btnContainer {
+    width: 100%;
+  }
+}

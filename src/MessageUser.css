@@ -1,0 +1,111 @@
+.MessageUser {
+  width: 50%;
+  margin: auto;
+  margin-top: 1rem;
+}
+.btnContainer {
+  text-align: center;
+}
+.MessageUser h3 {
+  margin-left: 2.57rem;
+  width: fit-content;
+  font-weight: normal;
+}
+.MessageUser input,
+.MessageUser textarea {
+  display: block;
+  border: none;
+  outline: none;
+  width: 84%;
+  padding: 0.8rem;
+  border-radius: 0.2rem;
+  margin: auto;
+  margin-top: 0.3rem;
+  margin-bottom: 0.9rem;
+  background-color: #f1f1f1;
+  box-shadow: 0px 0.3px 1.4px grey;
+}
+.MessageUser textarea {
+  height: 6rem;
+  resize: none;
+  margin-top: 2.3rem;
+}
+.inputContainer {
+  margin: auto;
+  padding: 2rem 0rem;
+}
+.MessageUser .btnContainer button {
+  border: none;
+  outline: none;
+  width: 89%;
+  background: #38ef7d;
+  box-shadow: 0px 1.4px 2px darkgray;
+  cursor: pointer;
+  padding: 0.8rem 3rem;
+  font-weight: bolder;
+  font-size: 1.1rem;
+  margin-bottom: 1.9rem;
+  margin-top: 0.8rem;
+}
+@media (max-width: 1309px) {
+  .MessageUser {
+    width: 70%;
+  }
+}
+@media (max-width: 759px) {
+  .MessageUser {
+    width: 90%;
+  }
+  .MessageUser .btnContainer button {
+    width: 88%;
+  }
+  .btnContainer {
+    width: 100%;
+  }
+}
+@media (max-width: 546px) {
+  .MessageUser .btnContainer button {
+    width: 90%;
+  }
+}
+@media (max-width: 426px) {
+  .MessageUser .btnContainer button {
+    width: 91.5%;
+  }
+  .MessageUser input,
+  .MessageUser textarea {
+    padding: 0.8rem;
+    border-radius: 0.2rem;
+    margin-top: 0.3rem;
+    margin-bottom: 0.4rem;
+  }
+  .MessageUser textarea {
+    margin-top: 1.3rem;
+  }
+  .MessageUser h3 {
+    margin-left: 1.57rem;
+    font-size: 1rem;
+  }
+}
+@media (max-width: 360px) {
+  .MessageUser {
+    margin-top: 0rem;
+  }
+  .MessageUser input,
+  .MessageUser textarea {
+    padding: 0.5rem;
+    margin-bottom: 0.3rem;
+  }
+  .MessageUser textarea {
+    height: 5rem;
+  }
+  .MessageUser h3 {
+    margin-left: 1.4rem;
+    font-size: 0.85rem;
+  }
+  .MessageUser .btnContainer button {
+    width: 90%;
+    font-size: 1rem;
+    font-weight: lighter;
+  }
+}

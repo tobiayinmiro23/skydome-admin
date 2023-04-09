@@ -1,0 +1,113 @@
+.AllOders {
+  /* width: 100%; */
+  width: fit-content;
+  overflow-x: auto;
+  margin: auto;
+  margin-top: 2rem;
+}
+.AllOders .delete,
+.AllOders .msg {
+  background: red;
+  width: fit-content;
+  border: none;
+  padding: 0.5rem 0.8rem;
+  border-radius: 0.2rem;
+  color: white;
+  border: #918888;
+  font-weight: bolder;
+  cursor: pointer;
+  box-shadow: 0px 0px 9px 0px rgb(245, 157, 157);
+}
+.AllOders .msg {
+  background: #38ef7d;
+  box-shadow: 0px 0px 0px 0px #bff3d3;
+}
+.ll {
+  width: 66rem;
+}
+.msg:hover {
+  /* background: #38ef7d; */
+  background: #17cf5e;
+}
+tbody tr td {
+  background-color: #f1f1f1;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  font-weight: bold;
+  text-align: center;
+  padding: 1rem;
+}
+
+tr th {
+  padding: 0.9rem 1.7rem;
+  border-collapse: collapse;
+}
+thead tr th {
+  /* margin: 0rem 0.6rem; */
+  background-color: #918888;
+  color: black;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+}
+@media (max-width: 1417px) {
+  .ll {
+    width: 57rem;
+  }
+  tr th {
+    padding: 0.5rem 1.4rem;
+  }
+  tbody tr td {
+    padding: 0.6rem;
+  }
+}
+@media (max-width: 1257px) {
+  .ll {
+    width: 50rem;
+  }
+}
+@media (max-width: 1097px) {
+  .ll {
+    width: 45rem;
+  }
+}
+@media (max-width: 969px) {
+  .ll {
+    width: 40rem;
+  }
+  tr th {
+    padding: 0.4rem 1.3rem;
+  }
+  tbody tr td {
+    padding: 0.5rem 0.35;
+  }
+}
+@media (max-width: 921px) {
+  .ll {
+    width: 94%;
+  }
+  tr th {
+    padding: 0.4rem 1.3rem;
+  }
+  tbody tr td {
+    padding: 0.5rem 0.35;
+  }
+}
+@media (max-width: 727px) {
+  .ll {
+    width: 96%;
+  }
+  tr th {
+    padding: 0.3rem 1.1rem;
+    font-size: 0.85rem;
+  }
+  tbody tr td {
+    font-size: 0.85rem;
+    padding: 0.35rem 0.45rem;
+  }
+  .AllOders .delete,
+  .AllOders .msg {
+    font-weight: bold;
+  }
+}
